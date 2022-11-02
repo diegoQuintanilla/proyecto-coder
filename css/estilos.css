@@ -1,0 +1,79 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+.colorFondo {
+    background-color: #0b2545ff;
+}
+
+.colorCuerpo {
+    background-color: #13315cff;
+}
+
+.fuente {
+    color: #eef4edff;
+}
+
+img {
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    display: grid;
+    grid-template-areas: 
+    "hijo1"
+    "hijo2";
+}
+
+.hijo1 {
+    grid-area: hijo1;
+}
+
+.hijo2 {
+    grid-area: hijo2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.fotoPerfil {
+    width: 400px;
+}
+
+i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.tarjeta {
+    width: 260px;
+}
+
+.escala {
+    transition: all .5s;
+}
+.escala:hover {
+    transform: scale(1.5);
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: black;
+    margin-bottom: 50px;
+}
+

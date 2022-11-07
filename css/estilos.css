@@ -84,10 +84,41 @@ hr {
     width: 18rem;
 }
 
-@media (min-width:576px) {
+.formulario, .t-formulario {
+    padding: 50px;
+}
+
+@media (min-width: 576px) {
     .formacion .card {
         margin: 20px;
         width: 16rem;
     }
 
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        width: 500px;
+        margin-left: 100px;
+    }    
+}
+
+@media (min-width: 992px) {
+    .formulario {
+        width: 500px;
+        margin-left: 250px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .contacto {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .formulario {
+        width: 100rem;
+        margin-left: 0px;
+    }
 }

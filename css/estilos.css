@@ -1,15 +1,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 .colorFondo {
-    background-color: #0b2545ff;
+    background-color: #1B2845;
 }
 
 .colorCuerpo {
-    background-color: #0b2545ff;
+    background-color: #274060;
 }
 
+.name {
+    color: #5899E2;
+}
 .fuente {
-    color: #eef4edff;
+    color: #65AFFF;
 }
 
 img {

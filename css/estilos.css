@@ -75,7 +75,7 @@ hr {
     top: 20px;
     border: none;
     height: 12px;
-    background: black;
+    background: #335C81;
     margin-bottom: 50px;
 }
 
@@ -93,7 +93,7 @@ hr {
 
 @media (min-width: 576px) {
     .formacion .card {
-        margin: 20px;
+        margin-bottom: 20px;
         width: 16rem;
     }
 

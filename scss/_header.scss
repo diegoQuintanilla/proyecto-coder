@@ -14,9 +14,25 @@ header {
         h1 {
             margin-left: 1.75rem;
             font-size: 2rem;
+            color: $fuente;
         }
     }
+
+    ul {
+      li{
+        a{
+            color: $fuente;
+            transition: all .5s;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+      }  
+    }
 }
+
+
 
 @media (min-width: 768px){
     a {

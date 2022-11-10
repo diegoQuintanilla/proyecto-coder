@@ -14,6 +14,14 @@ header a {
 header a h1 {
   margin-left: 1.75rem;
   font-size: 2rem;
+  color: #65afff;
+}
+header ul li a {
+  color: #65afff;
+  transition: all 0.5s;
+}
+header ul li a:hover {
+  transform: scale(1.5);
 }
 
 @media (min-width: 768px) {

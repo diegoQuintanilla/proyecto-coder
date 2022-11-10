@@ -30,5 +30,14 @@ header ul li a:hover {
     margin-right: auto;
   }
 }
+footer {
+  padding: 1rem 0;
+}
+footer h6 {
+  color: #65afff;
+}
+footer div a i {
+  color: #65afff;
+}
 
 /*# sourceMappingURL=estilo.css.map */

@@ -5,6 +5,10 @@ header a h1 {
     font-size: 2rem;
 }
 
+footer {
+    padding: 1rem 0;
+}
+
 .colorFondo {
     background-color: #1B2845;
 }

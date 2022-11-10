@@ -1,0 +1,26 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0px;
+}
+header a {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+header a h1 {
+  margin-left: 1.75rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  a {
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

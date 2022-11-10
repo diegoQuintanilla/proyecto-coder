@@ -1,5 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
+header a h1 {
+    margin-left: 1.75rem;
+    font-size: 2rem;
+}
+
 .colorFondo {
     background-color: #1B2845;
 }

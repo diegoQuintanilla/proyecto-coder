@@ -1,0 +1,51 @@
+/* contenido principal del index */
+
+
+main {
+    display: flex;
+    justify-content: center;
+        
+    .section1 {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem 0;
+            
+        img {
+            width: 25rem;
+        }
+    }
+        
+    .seccion2 {
+        display: grid;
+        grid-template-areas: 
+        "hijo1"
+        "hijo2";
+            
+        .hijo1 {
+            grid-area: hijo1;
+            color: $fuente;
+            padding: 3rem 0;
+            margin: 1rem 0;
+            font-style: italic;
+                
+            .nombre {
+                color: $nombre;
+            }
+        }
+            
+        .hijo2 {
+            grid-area: hijo2;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 1.25rem;
+                
+            img {
+                width: 5rem;
+            }   
+        }            
+    }
+}   
+
+    

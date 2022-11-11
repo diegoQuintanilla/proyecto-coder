@@ -17,7 +17,7 @@ footer {
     background-color: #274060;
 }
 
-.name {
+.nombre {
     color: #5899E2;
 }
 .fuente {
@@ -51,7 +51,7 @@ img {
 }
 
 .fotoPerfil {
-    width: 400px;
+    width: 25rem;
 }
 
 i {
@@ -73,10 +73,7 @@ i {
 .media {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: auto;
+    margin: 1.5rem 0;
 }
 
 hr {

@@ -1,43 +1,39 @@
+/* encabezado y barra de navegacion */
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem 0px;
+.navGeneral {
+    background-color: $colorFondo;
 
-    a {
+    header {
         display: flex;
-        align-items: flex-end;
-        margin-bottom: 1rem;
-        text-decoration: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem 0px;
 
-        h1 {
-            margin-left: 1.75rem;
-            font-size: 2rem;
-            color: $fuente;
-        }
-    }
+        a {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 1rem;
+            text-decoration: none;
 
-    ul {
-      li{
-        a{
-            color: $fuente;
-            transition: all .5s;
-
-            &:hover {
-                transform: scale(1.5);
+            h1 {
+                margin-left: 1.75rem;
+                font-size: 2rem;
+                color: $fuente;
             }
         }
-      }  
-    }
-}
 
+        ul {
+            li {
+                a {
+                    color: $fuente;
+                    transition: all .5s;
 
-
-@media (min-width: 768px){
-    a {
-        margin-bottom: 0;
-        margin-right: auto;
+                    &:hover {
+                        transform: scale(1.5);
+                    }
+                }
+            }  
+        }
     }
 
 }

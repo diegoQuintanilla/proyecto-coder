@@ -1,43 +1,87 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-header {
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"); /* encabezado y barra de navegacion */
+.navGeneral {
+  background-color: #1B2845;
+}
+.navGeneral header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 1rem 0px;
 }
-header a {
+.navGeneral header a {
   display: flex;
   align-items: flex-end;
   margin-bottom: 1rem;
   text-decoration: none;
 }
-header a h1 {
+.navGeneral header a h1 {
   margin-left: 1.75rem;
   font-size: 2rem;
   color: #65afff;
 }
-header ul li a {
+.navGeneral header ul li a {
   color: #65afff;
   transition: all 0.5s;
 }
-header ul li a:hover {
+.navGeneral header ul li a:hover {
   transform: scale(1.5);
 }
 
-@media (min-width: 768px) {
-  a {
-    margin-bottom: 0;
-    margin-right: auto;
-  }
+/* contenido principal del index */
+main {
+  display: flex;
+  justify-content: center;
 }
-footer {
+main .section1 {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+main .section1 img {
+  width: 25rem;
+}
+main .seccion2 {
+  display: grid;
+  grid-template-areas: "hijo1" "hijo2";
+}
+main .seccion2 .hijo1 {
+  grid-area: hijo1;
+  color: #65afff;
+  padding: 3rem 0;
+  margin: 1rem 0;
+  font-style: italic;
+}
+main .seccion2 .hijo1 .nombre {
+  color: #5899e2;
+}
+main .seccion2 .hijo2 {
+  grid-area: hijo2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+main .seccion2 .hijo2 img {
+  width: 5rem;
+}
+
+/* contenido principal de experiencia */ /* pie de pagina */
+.footGeneral {
+  background-color: #1B2845;
+}
+.footGeneral footer {
   padding: 1rem 0;
 }
-footer h6 {
+.footGeneral footer h6 {
   color: #65afff;
 }
-footer div a i {
+.footGeneral footer div a i {
   color: #65afff;
+}
+
+body {
+  background-color: #274060;
 }
 
 /*# sourceMappingURL=estilo.css.map */

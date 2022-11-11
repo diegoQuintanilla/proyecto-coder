@@ -116,6 +116,33 @@
   color: #65afff;
 }
 
+/* contenido principal de formacion */
+.formGeneral {
+  background-color: #274060;
+}
+.formGeneral main {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 0;
+}
+.formGeneral main div {
+  background-color: #1B2845;
+  margin: 1rem 0;
+  width: 18rem;
+}
+.formGeneral main div img {
+  height: 10, 625rem;
+}
+.formGeneral main div div {
+  margin-top: 1rem;
+  width: 16rem;
+  text-align: center;
+}
+.formGeneral main div div p {
+  color: #65afff;
+  font-style: italic;
+}
+
 /* pie de pagina */
 .footGeneral {
   background-color: #1B2845;

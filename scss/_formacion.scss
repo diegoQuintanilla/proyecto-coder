@@ -1,0 +1,32 @@
+/* contenido principal de formacion */
+
+.formGeneral {
+    background-color: $colorCuerpo;
+
+    main {
+        display: flex; 
+        justify-content: space-around;
+        margin: 3rem 0;
+
+        div {
+            background-color: $colorFondo;
+            margin: 1rem 0;
+            width: 18rem;
+
+            img {
+                height: 10,625rem;
+            }
+
+            div{
+                margin-top: 1rem;
+                width: 16rem;
+                text-align: center;
+
+                p{
+                    color: $fuente;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

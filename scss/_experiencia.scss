@@ -1,2 +1,63 @@
 /* contenido principal de experiencia */
 
+.expGeneral {
+    background-color: $colorCuerpo;
+
+    .seccion1 {
+        display: flex;
+        justify-content: space-around;
+        padding: 1.5rem;
+
+        .texto {
+
+            h1 {
+                font-style: italic;
+                color: $fuente;
+            }
+
+            p {
+                margin: 1rem 0;
+                color: $fuente;
+            }
+        }
+
+        .imagen {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem 0;
+            
+            img {
+                width: 16.25rem;
+            }
+        }
+    }
+
+    .seccion2 {
+        display: flex;
+        justify-content: space-around;
+        padding: 1.5rem;
+
+        .imagen {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem 0;
+            
+            img {
+                width: 16.25rem;
+            }
+        }
+
+        .texto {
+
+            h1 {
+                font-style: italic;
+                color: $fuente;
+            }
+
+            p {
+                margin: 1rem 0;
+                color: $fuente;
+            }
+        }
+    }
+}

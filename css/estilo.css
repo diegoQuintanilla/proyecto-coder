@@ -11,7 +11,6 @@
 .navGeneral header a {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 1rem;
   text-decoration: none;
 }
 .navGeneral header a h1 {
@@ -28,33 +27,37 @@
 }
 
 /* contenido principal del index */
-main {
+.indexGeneral {
+  text-align: center;
+  background-color: #274060;
+}
+.indexGeneral main {
   display: flex;
   justify-content: center;
 }
-main .section1 {
+.indexGeneral main .section1 {
   display: flex;
   justify-content: center;
   margin: 1.5rem 0;
 }
-main .section1 img {
+.indexGeneral main .section1 img {
   width: 25rem;
 }
-main .seccion2 {
+.indexGeneral main .seccion2 {
   display: grid;
   grid-template-areas: "hijo1" "hijo2";
 }
-main .seccion2 .hijo1 {
+.indexGeneral main .seccion2 .hijo1 {
   grid-area: hijo1;
   color: #65afff;
   padding: 3rem 0;
   margin: 1rem 0;
   font-style: italic;
 }
-main .seccion2 .hijo1 .nombre {
+.indexGeneral main .seccion2 .hijo1 .nombre {
   color: #5899e2;
 }
-main .seccion2 .hijo2 {
+.indexGeneral main .seccion2 .hijo2 {
   grid-area: hijo2;
   display: flex;
   justify-content: space-around;
@@ -62,11 +65,58 @@ main .seccion2 .hijo2 {
   flex-wrap: wrap;
   margin-bottom: 1.25rem;
 }
-main .seccion2 .hijo2 img {
+.indexGeneral main .seccion2 .hijo2 img {
   width: 5rem;
 }
 
-/* contenido principal de experiencia */ /* pie de pagina */
+/* contenido principal de experiencia */
+.expGeneral {
+  background-color: #274060;
+}
+.expGeneral .seccion1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+.expGeneral .seccion1 .texto h1 {
+  font-style: italic;
+  color: #65afff;
+}
+.expGeneral .seccion1 .texto p {
+  margin: 1rem 0;
+  color: #65afff;
+}
+.expGeneral .seccion1 .imagen {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.expGeneral .seccion1 .imagen img {
+  width: 16.25rem;
+}
+.expGeneral .seccion2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+.expGeneral .seccion2 .imagen {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.expGeneral .seccion2 .imagen img {
+  width: 16.25rem;
+}
+.expGeneral .seccion2 .texto h1 {
+  font-style: italic;
+  color: #65afff;
+}
+.expGeneral .seccion2 .texto p {
+  margin: 1rem 0;
+  color: #65afff;
+}
+
+/* pie de pagina */
 .footGeneral {
   background-color: #1B2845;
 }
@@ -75,6 +125,9 @@ main .seccion2 .hijo2 img {
 }
 .footGeneral footer h6 {
   color: #65afff;
+}
+.footGeneral footer div a {
+  margin: 1rem;
 }
 .footGeneral footer div a i {
   color: #65afff;

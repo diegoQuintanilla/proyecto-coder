@@ -143,6 +143,31 @@
   font-style: italic;
 }
 
+/* contenido principal de contacto */
+.contGeneral {
+  background-color: #274060;
+}
+.contGeneral main {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+.contGeneral main .formulario div {
+  margin-bottom: 1rem;
+}
+.contGeneral main .formulario div textarea {
+  height: 14.5rem;
+}
+.contGeneral main .t-formulario {
+  text-align: left;
+  margin: 1.5rem;
+}
+.contGeneral main .t-formulario span {
+  color: #65afff;
+  font-style: italic;
+  font-size: 20px;
+}
+
 /* pie de pagina */
 .footGeneral {
   background-color: #1B2845;

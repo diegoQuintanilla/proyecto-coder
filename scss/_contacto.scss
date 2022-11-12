@@ -1,0 +1,33 @@
+/* contenido principal de contacto */
+
+.contGeneral {
+    background-color: $colorCuerpo;
+
+    main {
+        margin: 3rem 0;
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+
+        .formulario {
+
+            div {
+                margin-bottom: 1rem;
+
+                textarea {
+                    height: 14.5rem;
+                }
+            }
+        }
+
+        .t-formulario {
+            text-align: left;
+            margin: 1.5rem;
+
+            span {
+                color: $fuente;
+                font-style: italic;
+                font-size: 20px;
+            }
+        }
+    }
+}

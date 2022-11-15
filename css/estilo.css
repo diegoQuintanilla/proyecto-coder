@@ -16,10 +16,11 @@
 .navGeneral header a h1 {
   margin-left: 1.75rem;
   font-size: 2rem;
-  color: #65afff;
+  color: #fff;
+  text-transform: uppercase;
 }
 .navGeneral header ul li a {
-  color: #65afff;
+  color: #fff;
   transition: all 0.5s;
 }
 .navGeneral header ul li a:hover {
@@ -29,7 +30,7 @@
 /* contenido principal del index */
 .indexGeneral {
   text-align: center;
-  background-color: #274060;
+  background-color: #000020;
 }
 .indexGeneral main {
   display: flex;
@@ -49,7 +50,7 @@
 }
 .indexGeneral main .seccion2 .hijo1 {
   grid-area: hijo1;
-  color: #65afff;
+  color: #fff;
   padding: 3rem 0;
   margin: 1rem 0;
   font-style: italic;
@@ -65,26 +66,30 @@
   flex-wrap: wrap;
   margin-bottom: 1.25rem;
 }
-.indexGeneral main .seccion2 .hijo2 img {
-  width: 5rem;
+.indexGeneral main .seccion2 .hijo2 a {
+  width: 4rem;
+  transition: all 0.2s;
+}
+.indexGeneral main .seccion2 .hijo2 a:hover {
+  transform: rotate(20deg);
 }
 
 /* contenido principal de experiencia */
 .expGeneral {
-  background-color: #274060;
+  background-color: #000020;
 }
 .expGeneral .seccion1 {
   display: flex;
   justify-content: space-around;
   padding: 1.5rem;
 }
-.expGeneral .seccion1 .texto h1 {
+.expGeneral .seccion1 .texto h2 {
   font-style: italic;
-  color: #65afff;
+  color: #fff;
 }
 .expGeneral .seccion1 .texto p {
   margin: 1rem 0;
-  color: #65afff;
+  color: #fff;
 }
 .expGeneral .seccion1 .imagen {
   display: flex;
@@ -93,6 +98,7 @@
 }
 .expGeneral .seccion1 .imagen img {
   width: 16.25rem;
+  height: 10rem;
 }
 .expGeneral .seccion2 {
   display: flex;
@@ -106,19 +112,20 @@
 }
 .expGeneral .seccion2 .imagen img {
   width: 16.25rem;
+  height: 10rem;
 }
-.expGeneral .seccion2 .texto h1 {
+.expGeneral .seccion2 .texto h2 {
   font-style: italic;
-  color: #65afff;
+  color: #fff;
 }
 .expGeneral .seccion2 .texto p {
   margin: 1rem 0;
-  color: #65afff;
+  color: #fff;
 }
 
 /* contenido principal de formacion */
 .formGeneral {
-  background-color: #274060;
+  background-color: #000020;
 }
 .formGeneral main {
   display: flex;
@@ -139,18 +146,16 @@
   text-align: center;
 }
 .formGeneral main div div p {
-  color: #65afff;
+  color: #fff;
   font-style: italic;
 }
 
 /* contenido principal de contacto */
 .contGeneral {
-  background-color: #274060;
+  background-color: #000020;
 }
 .contGeneral main {
   margin: 3rem 0;
-  display: grid;
-  grid-template-columns: 2fr 5fr;
 }
 .contGeneral main .formulario div {
   margin-bottom: 1rem;
@@ -160,10 +165,26 @@
 }
 .contGeneral main .t-formulario {
   text-align: left;
-  margin: 1.5rem;
 }
 .contGeneral main .t-formulario span {
-  color: #65afff;
+  color: #fff;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* contenido principal de adicional */
+.adiGeneral {
+  background-color: #000020;
+}
+.adiGeneral main div {
+  padding: 3rem 0 1rem;
+}
+.adiGeneral main div iframe {
+  height: 500px;
+}
+.adiGeneral main p {
+  color: #fff;
+  padding: 1rem;
   font-style: italic;
   font-size: 20px;
 }
@@ -176,17 +197,17 @@
   padding: 1rem 0;
 }
 .footGeneral footer h6 {
-  color: #65afff;
+  color: #fff;
 }
 .footGeneral footer div a {
   margin: 1rem;
 }
 .footGeneral footer div a i {
-  color: #65afff;
+  color: #fff;
 }
 
 body {
-  background-color: #274060;
+  background-color: #000020;
 }
 
 /*# sourceMappingURL=estilo.css.map */

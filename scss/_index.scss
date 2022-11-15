@@ -44,8 +44,13 @@
                 flex-wrap: wrap;
                 margin-bottom: 1.25rem;
                 
-                img {
-                    width: 5rem;
+                a {
+                    width: 4rem;
+                    transition: all .2s;
+
+                    &:hover {
+                        transform: rotate(20deg);
+                    }
                 }   
             }            
         }

@@ -1,0 +1,23 @@
+/* contenido principal de adicional */
+
+.adiGeneral {
+    background-color: $colorCuerpo;
+
+    main {
+
+        div {
+            padding: 3rem 0 1rem;
+            
+            iframe {
+                height: 500px;
+            }
+        }
+
+        p {
+            color: $fuente;
+            padding: 1rem;
+            font-style: italic;
+            font-size: 20px;
+        }
+    }
+}

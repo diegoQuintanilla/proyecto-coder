@@ -10,7 +10,7 @@
 
         .texto {
 
-            h1 {
+            h2 {
                 font-style: italic;
                 color: $fuente;
             }
@@ -28,6 +28,7 @@
             
             img {
                 width: 16.25rem;
+                height: 10rem;
             }
         }
     }
@@ -44,12 +45,13 @@
             
             img {
                 width: 16.25rem;
+                height: 10rem;
             }
         }
 
         .texto {
 
-            h1 {
+            h2 {
                 font-style: italic;
                 color: $fuente;
             }

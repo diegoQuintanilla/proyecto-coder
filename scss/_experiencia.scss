@@ -4,7 +4,7 @@
     background-color: $colorCuerpo;
 
     .seccion1 {
-        display: flex;
+        @include flex;
         justify-content: space-around;
         padding: 1.5rem;
 
@@ -22,7 +22,7 @@
         }
 
         .imagen {
-            display: flex;
+            @include flex;
             justify-content: center;
             margin: 1.5rem 0;
             
@@ -34,12 +34,12 @@
     }
 
     .seccion2 {
-        display: flex;
+        @include flex;
         justify-content: space-around;
         padding: 1.5rem;
 
         .imagen {
-            display: flex;
+            @include flex;
             justify-content: center;
             margin: 1.5rem 0;
             

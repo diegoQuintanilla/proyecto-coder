@@ -5,11 +5,11 @@
     background-color: $colorCuerpo;
     
     main {
-        display: flex;
+        @include flex;
         justify-content: center;
         
         .section1 {
-            display: flex;
+            @include flex;
             justify-content: center;
             margin: 1.5rem 0;
             

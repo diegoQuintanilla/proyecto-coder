@@ -4,7 +4,7 @@
     background-color: $colorCuerpo;
 
     main {
-        display: flex; 
+        @include flex;
         justify-content: space-around;
         margin: 3rem 0;
 

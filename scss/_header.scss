@@ -4,13 +4,13 @@
     background-color: $colorFondo;
 
     header {
-        display: flex;
+        @include flex;
         flex-wrap: wrap;
         justify-content: center;
         padding: 1rem 0px;
 
         a {
-            display: flex;
+            @include flex;
             align-items: flex-end;
             text-decoration: none;
 

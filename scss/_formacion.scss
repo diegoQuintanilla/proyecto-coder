@@ -1,30 +1,33 @@
 /* contenido principal de formacion */
 
 .formGeneral {
-    background-color: $colorCuerpo;
+    height: 100vh;
 
     main {
         @include flex;
-        justify-content: space-around;
-        margin: 3rem 0;
+        justify-content: space-between;
+        flex-wrap: nowrap;
 
-        div {
+        .card {
             background-color: $colorFondo;
-            margin: 1rem 0;
-            width: 18rem;
+            margin: 5rem 0;
+            width: 20rem;
+            text-align: center;
 
             img {
-                height: 10,625rem;
+                height: 8,625rem;
             }
 
             div{
                 margin-top: 1rem;
-                width: 16rem;
+                width: 18rem;
                 text-align: center;
 
                 p{
                     color: $fuente;
                     font-style: italic;
+                    font-size: 1.2rem;
+                    margin-bottom: 4rem;
                 }
             }
         }

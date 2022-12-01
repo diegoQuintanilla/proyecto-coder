@@ -1,7 +1,6 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"); /* encabezado y barra de navegacion */
-.navGeneral {
-  background-color: #1B2845;
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+/* encabezado y barra de navegacion */
 .navGeneral header {
   display: flex;
   flex-wrap: wrap;
@@ -14,82 +13,71 @@
   text-decoration: none;
 }
 .navGeneral header a h1 {
-  margin-left: 1.75rem;
-  font-size: 2rem;
   color: #fff;
-  text-transform: uppercase;
+  font-size: 25px;
+}
+.navGeneral header a h1 img {
+  height: 50px;
+  margin: 0;
+  padding: 0;
 }
 .navGeneral header ul li a {
+  font-family: "Barlow", sans-serif;
   color: #fff;
   transition: all 0.5s;
+  font-size: 1.5rem;
 }
 .navGeneral header ul li a:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 /* contenido principal del index */
 .indexGeneral {
   text-align: center;
-  background-color: #000020;
+  height: calc(100vh - 25px);
 }
 .indexGeneral main {
   display: flex;
   justify-content: center;
 }
-.indexGeneral main .section1 {
+.indexGeneral main .seccion1 {
   display: flex;
   justify-content: center;
   margin: 1.5rem 0;
 }
-.indexGeneral main .section1 img {
-  width: 25rem;
-}
-.indexGeneral main .seccion2 {
-  display: grid;
-  grid-template-areas: "hijo1" "hijo2";
+.indexGeneral main .seccion1 img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
 }
 .indexGeneral main .seccion2 .hijo1 {
-  grid-area: hijo1;
   color: #fff;
   padding: 3rem 0;
   margin: 1rem 0;
   font-style: italic;
+  font-size: 25px;
 }
 .indexGeneral main .seccion2 .hijo1 .nombre {
   color: #5899e2;
-}
-.indexGeneral main .seccion2 .hijo2 {
-  grid-area: hijo2;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 1.25rem;
-}
-.indexGeneral main .seccion2 .hijo2 a {
-  width: 4rem;
-  transition: all 0.2s;
-}
-.indexGeneral main .seccion2 .hijo2 a:hover {
-  transform: rotate(20deg);
+  text-shadow: 5px 2px 15px white;
 }
 
 /* contenido principal de experiencia */
-.expGeneral {
-  background-color: #000020;
-}
 .expGeneral .seccion1 {
   display: flex;
-  justify-content: space-around;
-  padding: 1.5rem;
+  justify-content: space-between;
+  height: 100vh;
+  line-height: 2.5;
 }
 .expGeneral .seccion1 .texto h2 {
   font-style: italic;
   color: #fff;
+  font-size: 4rem;
 }
 .expGeneral .seccion1 .texto p {
   margin: 1rem 0;
   color: #fff;
+  font-size: 2rem;
 }
 .expGeneral .seccion1 .imagen {
   display: flex;
@@ -97,13 +85,14 @@
   margin: 1.5rem 0;
 }
 .expGeneral .seccion1 .imagen img {
-  width: 16.25rem;
-  height: 10rem;
+  width: 30.25rem;
+  height: 20rem;
 }
 .expGeneral .seccion2 {
   display: flex;
-  justify-content: space-around;
-  padding: 1.5rem;
+  justify-content: space-between;
+  height: 100vh;
+  line-height: 2.5;
 }
 .expGeneral .seccion2 .imagen {
   display: flex;
@@ -111,43 +100,48 @@
   margin: 1.5rem 0;
 }
 .expGeneral .seccion2 .imagen img {
-  width: 16.25rem;
-  height: 10rem;
+  width: 30.25rem;
+  height: 20rem;
 }
 .expGeneral .seccion2 .texto h2 {
   font-style: italic;
   color: #fff;
+  font-size: 4rem;
 }
 .expGeneral .seccion2 .texto p {
   margin: 1rem 0;
   color: #fff;
+  font-size: 2rem;
 }
 
 /* contenido principal de formacion */
 .formGeneral {
-  background-color: #000020;
+  height: 100vh;
 }
 .formGeneral main {
   display: flex;
-  justify-content: space-around;
-  margin: 3rem 0;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
-.formGeneral main div {
+.formGeneral main .card {
   background-color: #1B2845;
-  margin: 1rem 0;
-  width: 18rem;
-}
-.formGeneral main div img {
-  height: 10, 625rem;
-}
-.formGeneral main div div {
-  margin-top: 1rem;
-  width: 16rem;
+  margin: 5rem 0;
+  width: 20rem;
   text-align: center;
 }
-.formGeneral main div div p {
+.formGeneral main .card img {
+  height: 8, 625rem;
+}
+.formGeneral main .card div {
+  margin-top: 1rem;
+  width: 18rem;
+  text-align: center;
+}
+.formGeneral main .card div p {
   color: #fff;
   font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
 }
 
 /* contenido principal de contacto */
@@ -190,9 +184,6 @@
 }
 
 /* pie de pagina */
-.footGeneral {
-  background-color: #1B2845;
-}
 .footGeneral footer {
   padding: 1rem 0;
 }
@@ -207,7 +198,7 @@
 }
 
 body {
-  background-color: #000020;
+  background: radial-gradient(rgb(1, 1, 63), #000000);
 }
 
 /*# sourceMappingURL=estilo.css.map */

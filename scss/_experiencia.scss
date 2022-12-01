@@ -1,23 +1,26 @@
 /* contenido principal de experiencia */
 
 .expGeneral {
-    background-color: $colorCuerpo;
+    // background-color: $colorCuerpo;
 
     .seccion1 {
         @include flex;
-        justify-content: space-around;
-        padding: 1.5rem;
+        justify-content: space-between;
+        height: 100vh;
+        line-height: 2.5;
 
         .texto {
 
             h2 {
                 font-style: italic;
                 color: $fuente;
+                font-size: 4rem;
             }
 
             p {
                 margin: 1rem 0;
                 color: $fuente;
+                font-size: 2rem;
             }
         }
 
@@ -27,16 +30,17 @@
             margin: 1.5rem 0;
             
             img {
-                width: 16.25rem;
-                height: 10rem;
+                width: 30.25rem;
+                height: 20rem;
             }
         }
     }
 
     .seccion2 {
         @include flex;
-        justify-content: space-around;
-        padding: 1.5rem;
+        justify-content: space-between;
+        height: 100vh;
+        line-height: 2.5;
 
         .imagen {
             @include flex;
@@ -44,8 +48,8 @@
             margin: 1.5rem 0;
             
             img {
-                width: 16.25rem;
-                height: 10rem;
+                width: 30.25rem;
+                height: 20rem;
             }
         }
 
@@ -54,11 +58,13 @@
             h2 {
                 font-style: italic;
                 color: $fuente;
+                font-size: 4rem;
             }
 
             p {
                 margin: 1rem 0;
                 color: $fuente;
+                font-size: 2rem;
             }
         }
     }

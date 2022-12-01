@@ -1,7 +1,7 @@
 /* encabezado y barra de navegacion */
 
 .navGeneral {
-    background-color: $colorFondo;
+    // background-color: $colorFondo;
 
     header {
         @include flex;
@@ -15,21 +15,27 @@
             text-decoration: none;
 
             h1 {
-                margin-left: 1.75rem;
-                font-size: 2rem;
                 color: $fuente;
-                text-transform: uppercase;
+                font-size: 25px;
+
+                img {
+                    height: 50px;
+                    margin: 0;
+                    padding: 0;
+                }
             }
         }
 
         ul {
             li {
                 a {
+                    font-family: 'Barlow', sans-serif;;
                     color: $fuente;
                     transition: all .5s;
+                    font-size: 1.5rem;
 
                     &:hover {
-                        transform: scale(1.5);
+                        transform: scale(1.1);
                     }
                 }
             }  

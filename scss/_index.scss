@@ -2,57 +2,40 @@
 
 .indexGeneral {
     text-align: center;
-    background-color: $colorCuerpo;
+    // background-color: $colorCuerpo;
+    height: calc(100vh - 25px);
     
     main {
         @include flex;
         justify-content: center;
         
-        .section1 {
+        .seccion1 {
             @include flex;
             justify-content: center;
             margin: 1.5rem 0;
             
             img {
-                width: 25rem;
+                width: 30rem;
+                height: 30rem;
+                border-radius: 50%;
             }
         }
         
         .seccion2 {
-            display: grid;
-            grid-template-areas: 
-            "hijo1"
-            "hijo2";
             
             .hijo1 {
-                grid-area: hijo1;
                 color: $fuente;
                 padding: 3rem 0;
                 margin: 1rem 0;
                 font-style: italic;
+                font-size: 25px;
                 
                 .nombre {
                     color: $nombre;
+                    text-shadow: 5px 2px 15px white; 
                 }
             }
-            
-            .hijo2 {
-                grid-area: hijo2;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                flex-wrap: wrap;
-                margin-bottom: 1.25rem;
                 
-                a {
-                    width: 4rem;
-                    transition: all .2s;
-
-                    &:hover {
-                        transform: rotate(20deg);
-                    }
-                }   
-            }            
         }
     }   
 }

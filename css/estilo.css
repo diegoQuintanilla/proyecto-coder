@@ -34,7 +34,6 @@
 /* contenido principal del index */
 .indexGeneral {
   text-align: center;
-  height: calc(100vh - 25px);
 }
 .indexGeneral main {
   display: flex;

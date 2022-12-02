@@ -2,8 +2,6 @@
 
 .indexGeneral {
     text-align: center;
-    // background-color: $colorCuerpo;
-    height: calc(100vh - 25px);
     
     main {
         @include flex;

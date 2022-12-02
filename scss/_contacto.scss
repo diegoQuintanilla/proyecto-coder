@@ -1,7 +1,7 @@
 /* contenido principal de contacto */
 
 .contGeneral {
-    background-color: $colorCuerpo;
+    height: 100vh;
 
     main {
         margin: 3rem 0;
@@ -9,10 +9,10 @@
         .formulario {
 
             div {
-                margin-bottom: 1rem;
+                margin-bottom: 1.2rem;
 
                 textarea {
-                    height: 14.5rem;
+                    height: 20rem;
                 }
             }
         }
@@ -23,7 +23,7 @@
             span {
                 color: $fuente;
                 font-style: italic;
-                font-size: 20px;
+                font-size: 2rem;
             }
         }
     }

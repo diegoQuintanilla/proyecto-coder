@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 .navGeneral header a h1 {
-  color: #fff;
+  color: rgba(74, 74, 210, 0.978);
   font-size: 25px;
 }
 .navGeneral header a h1 img {
@@ -146,16 +146,16 @@
 
 /* contenido principal de contacto */
 .contGeneral {
-  background-color: #000020;
+  height: 100vh;
 }
 .contGeneral main {
   margin: 3rem 0;
 }
 .contGeneral main .formulario div {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 .contGeneral main .formulario div textarea {
-  height: 14.5rem;
+  height: 20rem;
 }
 .contGeneral main .t-formulario {
   text-align: left;
@@ -163,18 +163,18 @@
 .contGeneral main .t-formulario span {
   color: #fff;
   font-style: italic;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 /* contenido principal de adicional */
 .adiGeneral {
-  background-color: #000020;
+  height: 100vh;
 }
 .adiGeneral main div {
   padding: 3rem 0 1rem;
 }
 .adiGeneral main div iframe {
-  height: 500px;
+  height: 50vh;
 }
 .adiGeneral main p {
   color: #fff;

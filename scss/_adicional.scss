@@ -1,7 +1,7 @@
 /* contenido principal de adicional */
 
 .adiGeneral {
-    background-color: $colorCuerpo;
+    height: 100vh;
 
     main {
 
@@ -9,7 +9,7 @@
             padding: 3rem 0 1rem;
             
             iframe {
-                height: 500px;
+                height: 50vh;
             }
         }
 

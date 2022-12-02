@@ -5,39 +5,62 @@
     .seccion1 {
         @include flex;
         justify-content: space-between;
-        line-height: 2.5;
 
         .texto {
+            width: 50rem;
 
             h2 {
-                font-style: italic;
                 color: $fuente;
-                font-size: 4rem;
+                font-size: 3.5rem;
             }
 
             p {
                 margin: 1rem 0;
-                color: $fuente;
-                font-size: 2rem;
+                color: $nombre;
+                font-size: 1.7rem;
+                font-style: italic
             }
         }
 
         .imagen {
-            @include flex;
-            justify-content: center;
-            margin: 1.5rem 0;
-            
-            img {
-                width: 30.25rem;
-                height: 20rem;
-            }
+            line-height: 20rem;
+        }
+    }
+
+    .separador { 
+        height: 30px;
+        border-style: solid;
+        border-color: #BFBFBF;
+        border-width: 2px 0 0 0;
+        border-radius: 20px;
+        text-align: center;
+           
+        &:before {
+            display: block;
+            content: "";
+            height: 30px;
+            margin-top: -31px;
+            border-style: solid;
+            border-color: black;
+            border-width: 0 0 1px 0;
+            border-radius:20px;
+        }
+           
+        &:after {
+            content: '⇓';
+            color: #DC5500;
+            display: inline-block;
+            position: relative;
+            top: -0.3em;
+            font-size: 1.5em;
+            padding: 0 0.25em;
+            background: white;
         }
     }
 
     .seccion2 {
         @include flex;
         justify-content: space-between;
-        line-height: 2.5;
 
         .imagen {
             @include flex;
@@ -53,7 +76,6 @@
         .texto {
 
             h2 {
-                font-style: italic;
                 color: $fuente;
                 font-size: 4rem;
             }

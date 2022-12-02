@@ -65,7 +65,6 @@
 .expGeneral .seccion1 {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
   line-height: 2.5;
 }
 .expGeneral .seccion1 .texto h2 {
@@ -90,7 +89,6 @@
 .expGeneral .seccion2 {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
   line-height: 2.5;
 }
 .expGeneral .seccion2 .imagen {
@@ -114,13 +112,9 @@
 }
 
 /* contenido principal de formacion */
-.formGeneral {
-  height: 100vh;
-}
 .formGeneral main {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
 }
 .formGeneral main .card {
   background-color: #1B2845;
@@ -144,9 +138,6 @@
 }
 
 /* contenido principal de contacto */
-.contGeneral {
-  height: 100vh;
-}
 .contGeneral main {
   margin: 3rem 0;
 }
@@ -166,9 +157,6 @@
 }
 
 /* contenido principal de adicional */
-.adiGeneral {
-  height: 100vh;
-}
 .adiGeneral main div {
   padding: 3rem 0 1rem;
 }

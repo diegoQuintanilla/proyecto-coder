@@ -1,12 +1,10 @@
 /* contenido principal de experiencia */
 
 .expGeneral {
-    // background-color: $colorCuerpo;
 
     .seccion1 {
         @include flex;
         justify-content: space-between;
-        height: 100vh;
         line-height: 2.5;
 
         .texto {
@@ -39,7 +37,6 @@
     .seccion2 {
         @include flex;
         justify-content: space-between;
-        height: 100vh;
         line-height: 2.5;
 
         .imagen {

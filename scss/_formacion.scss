@@ -1,12 +1,10 @@
 /* contenido principal de formacion */
 
 .formGeneral {
-    height: 100vh;
 
     main {
         @include flex;
         justify-content: space-between;
-        flex-wrap: nowrap;
 
         .card {
             background-color: $colorFondo;

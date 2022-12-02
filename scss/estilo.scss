@@ -3,6 +3,8 @@
 @import "variables","mixin","header","index","experiencia","formacion","contacto","adicional","footer";
 
 body {
-    background: radial-gradient(rgb(1, 1, 63),#000000)
+    background: radial-gradient(rgb(1, 1, 63),#000000);
+    height: 100vh;
+    font-family: 'Barlow', sans-serif;
 }
 

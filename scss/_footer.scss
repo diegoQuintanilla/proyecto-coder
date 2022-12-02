@@ -8,6 +8,12 @@
         
         h6 {
             color: $fuente;
+            font-style: italic;
+
+            &::after {
+                content: "2022";
+                color: $fuente;
+            }
         }
         
         div {

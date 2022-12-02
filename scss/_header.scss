@@ -28,7 +28,7 @@
         ul {
             li {
                 a {
-                    font-family: 'Barlow', sans-serif;;
+                    font-family: 'Barlow', sans-serif;
                     color: $fuente;
                     transition: all .5s;
                     font-size: 1.5rem;
@@ -41,4 +41,94 @@
         }
     }
 
+}
+
+@media (max-width: 768px) {
+    .navGeneral {
+        position: relative;
+        min-height: 48px;
+
+        input {
+            &:checked{
+                & ~ header {
+                    display: block;
+                }
+    
+                & ~ .bi-list {
+                    display: none;
+                }
+            }
+    
+            &:not(:checked) {
+                & ~ .bi-x {
+                    display: none;
+                }
+            }
+        }
+
+        input[type="checkbox"]{
+            position: absolute;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            right: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+            opacity: 0;
+        }
+    
+        .bi-list {
+            position: absolute;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            right: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+            font-size: 48px;
+            pointer-events: none;
+            color: $fuente;
+        }
+        
+        .bi-x {
+            position: absolute;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            right: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+            font-size: 48px;
+            pointer-events: none;
+            color: $fuente;
+        }
+
+        header {
+            display: none;
+
+            a {
+                display: block;
+                max-width: 200px;
+                font-variant: small-caps;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    
+    input {
+        display: none;
+    }
+
+    .bi-list {
+        display: none;
+    }
+
+    .bi-x {
+        display: none;
+    }
 }

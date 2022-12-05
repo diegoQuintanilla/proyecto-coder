@@ -9,8 +9,6 @@
   padding: 1rem 0px;
 }
 .navGeneral header a {
-  display: flex;
-  align-items: flex-end;
   text-decoration: none;
 }
 .navGeneral header a h1 {
@@ -52,7 +50,7 @@
     margin: 0;
     padding: 0;
     right: 0;
-    top: 0;
+    top: 10px;
     width: 48px;
     height: 48px;
     opacity: 0;
@@ -284,6 +282,15 @@
 .contGeneral main .t-formulario span {
   color: #fff;
   font-size: 1.7rem;
+}
+.contGeneral main .t-formulario .redes {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+.contGeneral main .t-formulario .redes i {
+  margin: 4.5rem 1rem 1rem 3rem;
 }
 
 @media (max-width: 576px) {

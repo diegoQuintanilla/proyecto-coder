@@ -9,8 +9,6 @@
         padding: 1rem 0px;
 
         a {
-            @include flex;
-            align-items: flex-end;
             text-decoration: none;
 
             h1 {
@@ -72,7 +70,7 @@
             margin: 0;
             padding: 0;
             right: 0;
-            top: 0;
+            top: 10px;
             width: 48px;
             height: 48px;
             opacity: 0;

@@ -3,7 +3,7 @@
 .contGeneral {
 
     main {
-        margin: 3rem 0;
+        margin-top: 3rem;
 
         .formulario {
 
@@ -39,3 +39,14 @@
     }
 }
 
+@media (max-width: 576px) {
+    .contGeneral {
+        main {
+            .t-formulario {
+                span {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

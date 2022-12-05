@@ -24,6 +24,7 @@
 
         .imagen {
             line-height: 20rem;
+            margin: auto;
         }
     }
 
@@ -64,6 +65,7 @@
 
         .imagen {
             line-height: 20rem;
+            margin: auto;
         }
 
         .texto {
@@ -80,6 +82,37 @@
                 color: $nombre;
                 font-size: 1.7rem;
                 font-style: italic;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .expGeneral {
+        .seccion1 {
+            .texto {
+                margin-top: 2.5rem;
+                h2 {
+                    font-size: 2.5rem;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+        .seccion2 {
+            .texto {
+                margin-top: 2.5rem;
+    
+                h2 {
+                    font-size: 2.5rem;
+                }
+    
+                p {
+                    font-size: 1.3rem;
+                }
             }
         }
     }

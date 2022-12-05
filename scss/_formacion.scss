@@ -9,7 +9,7 @@
         
         .card {
             background-color: $colorFondo;
-            margin: 5rem 0;
+            margin: 5rem auto;
             width: 20rem;
             text-align: center;
             
@@ -28,6 +28,20 @@
                     font-size: 1.2rem;
                     margin-bottom: 4rem;
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .formGeneral {
+        main {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2.5rem;
+
+            .card {
+                margin: 1.5rem 0;
             }
         }
     }

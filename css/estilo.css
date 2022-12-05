@@ -187,22 +187,20 @@
   justify-content: space-between;
 }
 .expGeneral .seccion2 .imagen {
-  display: flex;
-  justify-content: center;
-  margin: 1.5rem 0;
+  line-height: 20rem;
 }
-.expGeneral .seccion2 .imagen img {
-  width: 30.25rem;
-  height: 20rem;
+.expGeneral .seccion2 .texto {
+  width: 50rem;
 }
 .expGeneral .seccion2 .texto h2 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .expGeneral .seccion2 .texto p {
   margin: 1rem 0;
-  color: #fff;
-  font-size: 2rem;
+  color: #4288d8;
+  font-size: 1.7rem;
+  font-style: italic;
 }
 
 /* contenido principal de formacion */

@@ -18,7 +18,7 @@
                 margin: 1rem 0;
                 color: $nombre;
                 font-size: 1.7rem;
-                font-style: italic
+                font-style: italic;
             }
         }
 
@@ -63,27 +63,23 @@
         justify-content: space-between;
 
         .imagen {
-            @include flex;
-            justify-content: center;
-            margin: 1.5rem 0;
-            
-            img {
-                width: 30.25rem;
-                height: 20rem;
-            }
+            line-height: 20rem;
         }
 
         .texto {
 
+            width: 50rem;
+
             h2 {
                 color: $fuente;
-                font-size: 4rem;
+                font-size: 3.5rem;
             }
 
             p {
                 margin: 1rem 0;
-                color: $fuente;
-                font-size: 2rem;
+                color: $nombre;
+                font-size: 1.7rem;
+                font-style: italic;
             }
         }
     }

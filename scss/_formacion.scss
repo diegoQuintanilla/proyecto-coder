@@ -5,13 +5,14 @@
     main {
         @include flex;
         justify-content: space-between;
-
+        
+        
         .card {
             background-color: $colorFondo;
             margin: 5rem 0;
             width: 20rem;
             text-align: center;
-
+            
             img {
                 height: 8,625rem;
             }

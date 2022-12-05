@@ -14,6 +14,18 @@
                     height: 20rem;
                 }
             }
+
+            button {
+                color: $nombre;
+                text-transform: uppercase;
+                
+                &:hover {
+                    color: black;
+                }
+
+            }
+
+           
         }
 
         .t-formulario {
@@ -21,8 +33,7 @@
 
             span {
                 color: $fuente;
-                font-style: italic;
-                font-size: 2rem;
+                font-size: 1.7rem;
             }
         }
     }

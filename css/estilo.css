@@ -239,13 +239,19 @@
 .contGeneral main .formulario div textarea {
   height: 20rem;
 }
+.contGeneral main .formulario button {
+  color: #4288d8;
+  text-transform: uppercase;
+}
+.contGeneral main .formulario button:hover {
+  color: black;
+}
 .contGeneral main .t-formulario {
   text-align: left;
 }
 .contGeneral main .t-formulario span {
   color: #fff;
-  font-style: italic;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 /* contenido principal de adicional */
